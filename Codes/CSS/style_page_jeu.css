@@ -1,0 +1,102 @@
+/*
+* Feuille de style de la page de jeu jeu.php.
+*/
+
+#centre{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;  
+}
+
+#indication{
+    margin: 15px;
+    text-align: center;
+}
+
+#gauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#emplacements_lettres_a_deviner{
+    font-size: 3vh;
+}
+
+#clavier{
+    align-content: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /* Pour empêcher que les lettres du clavier deviennent sélectionnables */
+    -webkit-touch-callout: none; /* Pour iOS Safari */
+    -webkit-user-select: none; /* Pour Safari */
+    -khtml-user-select: none; /* Pour Konqueror HTML */
+    -moz-user-select: none; /* Pour Firefox */
+    -ms-user-select: none; /* Pour Internet Explorer/Edge */
+    user-select: none; /* Pour Chrome et Opera */
+}
+.lettre{
+    background-color: #eae8da;
+    
+    border: 1.5px solid #386150;
+    border-radius: 45%;
+    text-align: center;
+    margin: 5px;
+    margin-top: 5px;
+    padding: 5px 9px;
+    height: 20px;
+    display: inline-block;
+    
+}
+.lettre:hover{
+    background-color: #3861506e;
+}
+.lettre-dejaCliquee{
+    background-color:#97a097; /* On grise la lettre */
+    pointer-events: none; /*On désactive les evenements clic.*/
+    /*
+    border: 1.5px solid #386150;
+    border-radius: 45%;
+    text-align: center;
+    margin: 5px;
+    margin-top: 5px;
+    padding: 5px 9px;
+    height: 20px;
+    display: inline-block;*/
+}
+
+.noClic{
+    pointer-events: none;
+}
+
+#dessin{
+    flex: 2;
+}
+
+.message{
+    font-size: 25px;
+}
+#message2 {
+    font-weight: bold;
+}
+
+#stats {
+    clear: both;
+    width: 50%;
+    margin: auto;
+    background-color: #386150;
+    color:  white;
+    -webkit-transition: height 4s, font-size 2s; /* Pour Safari 3.1 à 6.0 */
+    transition: height 4s, font-size 2s;
+
+}
+.stats-fin{
+    margin: auto;
+    height: 50%;
+    font-size: 9vh;
+}
