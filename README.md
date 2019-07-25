@@ -4,7 +4,7 @@ Ce projet est réalisé dans le cadre de la formation de prépa intégrée (deux
 ![alt text](https://github.com/JulienChoukroun/WEB/blob/master/Images/pageAccueil.PNG "Page d'accueil")
 ![alt text](https://github.com/JulienChoukroun/WEB/blob/master/Images/pageJeu.PNG "Page de jeu")
 ## Présentation
-Ce projet a été réalisé avec le langage Python.
+Ce projet a été réalisé avec les langages PHP, Javascript, CSS et HTML.
 
 Le Pendu est un jeu consistant à trouver un mot en devinant quelles sont les lettres qui le composent. C'est un jeu du type humain contre machine simple car il n'y a aucune stratégie à implémenter côté machine.
 
