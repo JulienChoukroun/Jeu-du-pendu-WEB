@@ -2,6 +2,7 @@ Ce projet est réalisé dans le cadre de la formation de prépa intégrée (deux
 ***
 # Jeu du pendu
 ![alt text](https://github.com/JulienChoukroun/WEB/blob/master/Images/pageAccueil.PNG "Page d'accueil")
+![alt text](https://github.com/JulienChoukroun/WEB/blob/master/Images/pageJeu.PNG "Page de jeu")
 ## Présentation
 Ce projet a été réalisé avec le langage Python.
 
