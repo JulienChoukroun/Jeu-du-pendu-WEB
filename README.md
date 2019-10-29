@@ -3,7 +3,7 @@ Ce projet est réalisé dans le cadre de la formation de prépa intégrée (deux
 # Jeu du pendu
 ![alt text](https://github.com/JulienChoukroun/WEB/blob/master/Images/pageAccueil.PNG "Page d'accueil")
 ![alt text](https://github.com/JulienChoukroun/WEB/blob/master/Images/pageJeu.PNG "Page de jeu")
-URL du projet : http://users.polytech.unice.fr/~sa703719/adw/
+#### URL du projet : http://users.polytech.unice.fr/~sa703719/adw/
 ## Présentation
 Ce projet a été réalisé avec les langages PHP, Javascript, CSS et HTML.
 
